@@ -1,0 +1,38 @@
+{
+  "name": "code-share-api",
+  "version": "0.0.1",
+  "description": "Instantly share your code with the world",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "debug": "nodemon --inspect src/app.js",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hellovietduc/code-share-api"
+  },
+  "author": "hellovietduc",
+  "license": "MIT",
+  "devDependencies": {
+    "@vietduc/eslint-config": "^1.0.4",
+    "eslint": "^7.9.0",
+    "husky": "^4.3.0",
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "ajv": "^6.12.5",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "keyv": "^4.0.3",
+    "morgan": "^1.10.0",
+    "normalize-url": "^5.1.0",
+    "restana": "^4.7.4",
+    "signale": "^1.4.0"
+  }
+}

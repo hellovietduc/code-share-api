@@ -1,0 +1,16 @@
+{
+    "testStrings": [
+        "HELLO, WORLD",
+        "I LOVE CODING",
+        "thisisasuperlongtextjustforthesakeoftestingtheencodingservice"
+    ],
+    "invalidHashes": [
+        "RANDOM",
+        "HELLO",
+        "WORLD"
+    ],
+    "invalidCharacterHashes": [
+        "/HELLO WORLD+",
+        "!@#$%^&*()"
+    ]
+}
